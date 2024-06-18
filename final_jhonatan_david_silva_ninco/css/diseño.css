@@ -1,0 +1,245 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(to right,#cccccc, #a1a1a1);
+}
+
+body {
+    background-color: #575757; 
+}
+
+.almacenamiento{
+    width: 80%; 
+    max-width: 1200px; 
+    margin: auto;
+    padding: 20px;
+    background-color: #242424; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 2); 
+}
+.almacenamiento_perfil{
+    width: 80%; 
+    max-width: 2800px; 
+    margin: auto;
+    padding: 150px;
+    background-color: #242424; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 2); 
+}
+
+.boton {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
+
+.boton button {
+    background-color: #c2c2c2; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    margin: 0 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1.2); 
+}
+
+.boton button:hover {
+    background-color: #c2c2c2; 
+}
+
+.imagen {
+    display: flex; 
+    justify-content: center;
+}
+
+.imagen img {
+    margin-right: 10px; 
+    width: 500px;
+}
+
+.imagen1 {
+    display: flex; 
+    justify-content: center;
+}
+
+.imagen1 img {
+    margin-right: 10px; 
+    width: 250px;
+}
+
+.imagen2 {
+    display: flex; 
+    justify-content: center;
+}
+.imagen2 img {
+    margin-right: 10px; 
+    width: 200px;
+}
+.imagen3 {
+    display: flex; 
+    justify-content: center;
+}
+
+.imagen3 img {
+    margin-right: 10px; 
+    width: 200px;
+}
+
+.imgTexto {
+    position: relative; 
+    margin-right: 10px; 
+}
+.texto {
+    position: absolute; 
+    bottom: 310px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+.texto1 {
+    position: absolute; 
+    bottom: 215px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+.texto2 {
+    position: absolute; 
+    bottom: 278px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+.texto3 {
+    position: absolute; 
+    bottom: 225px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+.texto4 {
+    position: absolute; 
+    bottom: 234px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+.texto_artistas_grecia {
+    position: absolute; 
+    bottom: 278px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+.texto_artistas_Emedia{
+    position: absolute; 
+    bottom: 273px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+.texto_artistas_Emoderna1{
+    position: absolute; 
+    bottom: 300px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+.texto_artistas_Emoderna2{
+    position: absolute; 
+    bottom: 286px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+.texto_artistas_Emoderna3{
+    position: absolute; 
+    bottom: 300px; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+.difuminar {
+    border-radius: 20px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1.2); 
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+a:hover {
+    color: rgb(255, 255, 255);
+  }
+a:active {
+    text-decoration: underline;
+  }
+
+.Centrar {
+    width: 80%; 
+    max-width: 1200px; 
+    margin: auto;
+    padding: 20px;
+    background-color: #444; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.7); 
+    border-radius: 10px; 
+    justify-content: center;
+}
+
+.Centrar2 {
+    width: 80%; 
+    max-width: 1200px; 
+    margin: auto;
+    padding: 80px;
+    background-color: #444; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.7); 
+    border-radius: 10px; 
+    justify-content: center;
+}
+
+
+ul {
+    list-style: disc; 
+    padding-left: 0; 
+    list-style-position: inside; 
+}
+
+ul li {
+    display: inline-block; 
+    width: 100%; 
+    text-align: center; 
+}
